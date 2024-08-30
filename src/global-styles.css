@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, rgb(29, 117, 151) 0%, rgb(18, 65, 85) 100%);
+}
+
+button {
+  padding: 0;
+}
+
+.help-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.main-content-block {
+  background-color: #beb1b1;
+  width: 320px;
+  border-radius: 18px;
+  padding: 16px;
+box-shadow: 0px 0px 25px 2px rgba(0,0,0,0.35);
+}
+
+.btn-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2px;
+}
+
+.main-btn-style {
+  cursor: pointer;
+  width: 60px;
+  height: 50px;
+  background-color: #cecece;
+  border: none;
+  border-radius: 12px;
+  width: calc((100% - 24px) / 4);
+  margin-bottom: 6px;
+}
+
+.main-btn-style:hover {
+  background-color: #c0c0c0;
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.15);
+}
+
+.main-btn-style:active {
+  background-color: #b3b3b3;
+  transform: scale(0.95);
+}
+
+#display {
+  margin-bottom: 14px;
+  width: 100%;
+  height: 50px;
+  border-radius: 12px;
+  border: 1px solid #bbbbbb;
+  box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.1);
+}
+
+.add-style-c {
+  background-color: tomato;
+  border: none;
+}
+
+.add-style-c:hover {
+  background-color: rgb(255, 87, 57);
+}
+
+.add-style-c:active {
+  background-color: rgb(255, 77, 45);
+}
+
+.add-m {
+  margin: 0;
+}
+
+.calc-info-box {
+  position: relative;
+}
+
+.calc-info-txt {
+  position: absolute;
+  bottom: 16px;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 12px;
+  color: white;
+  font-weight: 500;
+}
+
+.calc-info-link {
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 12px;
+  color: white;
+  font-weight: 500;
+}
