@@ -42,6 +42,7 @@ button {
 
 .main-btn-style {
   cursor: pointer;
+  color: black;
   width: 60px;
   height: 50px;
   background-color: #cecece;
